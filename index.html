@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Frontend Mentor | Contact form</title>
+  </head>
+  <body>
+    <main>
+      <div class="notification" id="successNotification">
+        <img src="assets/images/icon-success-check.svg" alt="" class="image">
+        <span>Message Sent!</span>
+        <p>Thanks for completing the form. We'll be in touch soon!</p>
+      </div>
+      
+      <div class="container">
+        <form id="contact-form" method="POST">
+          <h1>Contact Us</h1>
+
+          <div class="form-group-name">
+            <div class="first-name">
+              <label for="first-name">First Name *</label>
+              <input type="text" id="first-name" name="first-name">
+              <span class="error-message" id="first-name-error">This field is required</span>
+            </div>
+            <div class="last-name">
+              <label for="last-name">Last Name *</label>
+              <input type="text" id="last-name" name="last-name">
+              <span class="error-message" id="last-name-error">This field is required</span>
+            </div>
+          </div>
+
+          <div class="form-group full-width">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email">
+            <span class="error-message" id="email-error"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="queryType">Query Type <span>*</span></label>
+            <div class="radio-group">
+                <label class="radio-container">
+                  <input type="radio" name="queryType" value="general">
+                  <span class="radio-label">General Enquiry</span>
+                </label>
+                <label class="radio-container">
+                  <input type="radio" name="queryType" value="support">
+                  <span class="radio-label">Support Request</span>
+                </label>
+            </div>
+            <span class="error-message" id="queryType-error">Please select a query type</span>
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            <span class="error-message" id="message-error">This field is required</span>
+          </div>
+
+          <div class="form-group full-width">
+            <label><input type="checkbox" name="consent"> I consent to being contacted by the team *</label>
+            <span class="error-message" id="consent-error">To submit this form, please consent to being contacred</span>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit" class="submit-button">Submit</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
