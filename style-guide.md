@@ -1,44 +1,37 @@
-# Frontend Mentor - Contact form solution
+# Front-end Style Guide
 
-This is a solution to the [Contact form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+## Layout
 
-## Table of contents
+The designs were created to the following widths:
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
+- Mobile: 375px
+- Desktop: 1440px
 
-## Overview
+> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
 
-### Screenshot
+## Colors
 
-- Desktop
+### Primary
 
-![image](https://github.com/user-attachments/assets/bfd1a2d3-e6db-4140-854a-ed9e37f93fbf)
+- Green 200 (lighter): hsl(148, 38%, 91%)
+- Green 600 (medium): hsl(169, 82%, 27%)
+- Red: hsl(0, 66%, 54%)
 
-### Links
+### Neutral
 
-- Live Site URL: [https://dejuliansr.github.io/front-end-mentor-contact-form](https://dejuliansr.github.io/front-end-mentor-contact-form)
+- White: hsl(0, 0%, 100%)
+- Grey 500 (medium): hsl(186, 15%, 59%)
+- Grey 900 (darker): hsl(187, 24%, 22%)
 
-## My process
+## Typography
 
-In this challenge I only used HTML, CSS, and JavaScript didn't use any framework so as not to complicate the configuration
+### Body Copy
 
-### Built with
+- Font size (labels): 16px
 
-- Semantic HTML5 markup
-- CSS custom properties
-- JavaScript
+### Font
 
-### What I learned
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700
 
-By working on this challenge, I was able to learn various important concepts in front-end web development. I will understand how to create semantic HTML structures, use Flexbox and grids for responsive layouts, and manage images and text well. Apart from that, this challenge taught me CSS applications such as the use of color, distance between elements, as well as visual effects such as shadows and corner radii to create an attractive appearance, and I also learned the application of JavaScript which this time I learned to use to validate contact forms so that The user cannot clear the form. Overall, it helped improve my understanding of responsive design and best practices in front-end development.
-
-## Author
-
-- Github - [dejuliansr](https://github.com/dejuliansr)
-- Frontend Mentor - [@dejuliansr](https://www.frontendmentor.io/profile/dejuliansr)
+> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
